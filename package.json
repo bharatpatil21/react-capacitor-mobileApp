@@ -2,6 +2,7 @@
   "name": "react-capacitor-mobile-app",
   "version": "0.1.0",
   "private": true,
+  "main": "main.js",
   "dependencies": {
     "@capacitor/android": "2.4.0",
     "@capacitor/cli": "^2.4.0",
@@ -17,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:electron": "react-scripts build --pord && npx cap open electron"
   },
   "eslintConfig": {
     "extends": "react-app"
